@@ -11,7 +11,7 @@ h1{
 hr{
     color:chartreuse
 }
-section{
+.flexible{
     display:flex;
     margin: 150px;
 }
@@ -42,4 +42,32 @@ section{
     background-image: url(images/dream-bg.png);
     background-position: right;
     background-repeat: no-repeat;
+}
+.headcolor{
+    color:orange;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.area{
+    box-shadow: 10px 10px 55px gray;
+    width:50%;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+
+}
+#web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#student{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,cyan);
+    border-image-slice: 1;
 }
